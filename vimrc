@@ -31,3 +31,5 @@ autocmd FileType gitcommit set textwidth=70 formatoptions-=tc
 " The f option controls whether global marks (A-Z and 0-9) are stored.
 " he < option controls how many lines are saved for each of the registers.
 set viminfo='100,f1,<500
+
+highlight Search ctermfg=blue
